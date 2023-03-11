@@ -1,0 +1,48 @@
+*{
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root{
+    --spacing:.5em;
+}
+body{
+display: grid;
+place-items: center;
+min-height: 100vh;
+}
+
+
+[flex]{
+    display: flex;
+    align-items: stretch;
+    justify-content: space-between;
+
+    gap: var(--spacing);
+}
+
+[func]{
+    background-color: blue;
+    color: white;
+    font-weight: bold;
+}
+
+[afficheur]{
+
+    width: 300px;
+    border: 2px solid blue;
+
+    display: flex;
+    align-items: center;
+    padding: .5em;
+    font-size: 2em;
+
+}
+
+[calculator]{
+    display: flex;
+    flex-direction: column;
+    gap: var(--spacing);
+
+}
